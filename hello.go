@@ -22,15 +22,15 @@ func main() {
 		switch id {
 		case 1:
 			startMonitoring()
-			fmt.Println("Monitorando...")
+			fmt.Println("Starting...")
 		case 2:
 			showLogs()
 
 		case 0:
-			fmt.Println("Saindo do programa...")
+			fmt.Println("Exit")
 			os.Exit(0)
 		default:
-			fmt.Println("Não conheço este comando")
+			fmt.Println("?")
 		}
 	}
 
